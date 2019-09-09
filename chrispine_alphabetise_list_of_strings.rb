@@ -2,7 +2,7 @@
 wordarray = []
 
 loop do
-  puts "Type in a word"
+  puts "Please type in a word"
   input = gets.chomp
   wordarray << input
   puts wordarray.sort.join(', ')
